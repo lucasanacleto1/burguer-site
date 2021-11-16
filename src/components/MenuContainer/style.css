@@ -1,0 +1,16 @@
+.show-items {
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+@media (min-width: 768px) {
+  .show-items {
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    justify-content: center;
+  }
+}
